@@ -3,7 +3,7 @@ import '../scss/styles.scss'
 import * as bootstrap from 'bootstrap'
 import { alertError, alertSuccess } from './alerts'
 
-const endpointAppointments = "http://localhost:3001/appointment"
+const endpointAppointments = "http://localhost:3000/appointments"
 
 const $namePet = document.getElementById('name_pet')
 const $namePerson = document.getElementById('name_person')
